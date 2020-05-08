@@ -1,0 +1,111 @@
+.motivation-body-component {
+    .motivation-main {
+        height: 561px;
+        margin-top: 200px;
+    }
+    
+    .know-more {
+        border: 1px solid #d39c39;
+        background-color: #d39c39;
+        font-size: 14px;
+        color: #fff;
+        font-weight: 600;
+        padding: 12px 35px;
+        text-transform: uppercase;
+        display: inline-block;
+        border-radius: 0;
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+        outline: unset !important;
+        border-color: unset;
+    }
+
+    .know-more:hover {
+        background-color: #0062cc;
+    }
+
+    .row {
+        margin-left: unset;
+        margin-right: unset;
+    }
+
+    @keyframes slide-right {
+        0% { transform: translate(-200px); }
+        99% { transform: translate(0px); }
+    }
+
+    @keyframes slide-up {
+        0% { transform: translateY(-100px); }
+        99% { transform: translateY(0px); }
+    }
+
+    .motivation-message {
+        animation: slide-right 5s ease;
+    }
+
+    img {
+        animation: slide-up 3s ease;
+    }
+
+    .th-header-divider {
+        width: 243px;
+        border-color: #f25f5c;
+        display: inline-block;
+        border: 2px solid #1e8190;
+        margin-bottom: 18px;
+    }
+
+    @media screen and (max-width: 991px) {
+        .motivation-main {
+            margin-top:100px;
+            width: 100% !important;
+            .col-md-4 {
+                flex: unset;
+                max-width: 100%;
+                margin-bottom: 20px;
+            }
+            .col-md-6 {
+                width: 100%;
+            }
+
+            .motivation-message {
+                font-size: 23px !important;
+            }
+        }
+    }
+
+    @media screen and (min-width: 300px) and (max-width: 600px) {
+        .motivation-main {
+            margin-top:100px;
+            margin-bottom: 406px;
+            width: 100%;
+            .col-md-4 {
+                flex: unset;
+                max-width: 100%;
+                margin-bottom: 20px;
+            }
+            .col-md-6 {
+                width: 100% !important;
+            }
+
+            .motivation-message h2 {
+                font-size: 31px !important;
+            }
+            img {
+                margin-top: 28px;
+            }
+        }
+    }
+
+    @media screen and (min-width: 600px) and (max-width: 786px) {
+        .motivation-main {
+            margin-top: 100px;
+            margin-bottom: 206px;
+        }
+
+        .motivation-message { 
+            margin-bottom: 49px;
+        }
+    }
+}

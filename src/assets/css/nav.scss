@@ -1,0 +1,45 @@
+.nav-component {
+    .navbar {
+        padding-left: 115px;
+        padding-right: 100px;
+    }
+
+    .nav-link {
+        color: #263a4f !important;
+        font-family: work sans,sans-serif !important;
+    }
+
+    .nav-link:hover {
+        background: 0 0;
+        color: #bfca02 !important;
+        opacity: 1;
+    }
+
+    li {
+        padding-right: 27px;
+    }
+
+    li:last-child {
+        padding-right: 0px;
+    }
+
+    a {
+        font-size: 14px;
+    }
+
+    @media screen and (max-width: 991px) {
+        .navbar-brand {
+            text-align: center!important;
+            width: 100%;
+
+        }
+
+        li:last-child {
+            padding-right: 27px;
+        }
+
+        .navbar-nav {
+            width: 100%;
+        }
+    }
+}
