@@ -1,0 +1,39 @@
+.top-body-component {
+    .top-main {
+        background-image: url("./../images/banner.jpg");
+        background-size: cover;
+        height: 620px;
+    }
+
+    .title {
+        color: white;
+        font-size: 56px;
+    } 
+
+    .title-section {
+        padding-top: 182px;        
+    }
+
+    .book-now {
+        z-index: 1;
+        background-color: Transparent;
+        background-repeat:no-repeat;
+        font-size: 13px;
+        color: white;
+        font-weight: 700;
+        text-transform: uppercase;
+        line-height: 2.308;
+        -webkit-border-radius: 0;
+        border-radius: 0;
+        border: 2px solid;
+        padding: 9.5px 35px; 
+        outline: unset !important;
+    }
+
+    .book-now:hover {
+        color: #fff;
+        background-color: #d39c39;
+        border-color: #d39c39;
+        
+    }
+}
